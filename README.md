@@ -155,6 +155,7 @@ La frase 'Don't ever go to this restaurant. The food was horrible :-(' es [NEGAT
 Con la libreria **FastText**, podemos crear datasets de texto, con sus respetivas etiquetas. Despues del entrenamiento, el resultado fue el siguiente:
    
 **Frase:** Which baking dish is best to bake a banana bread?
+   
 **Ubicación de la etiqueta:**
    (('__label__baking',
   '__label__equipment',
