@@ -114,8 +114,8 @@ Seleccione un data set para una aplicación de PLN o de otra fuente y realice lo
 1. Análisis Morfo - Sintáctico: Se verifican las etiquetas de salida.
 
 <p align="center">
-<img src="img/UniversalTags.png" alt="" style="height: 300px; width:400px;"/><img src="img/UniversalTags.png" alt="" style="height: 300px; width:400px;"/>
-</p> 
+<img src="img/UniversalTags.png"/>
+</p>
 
 Español:
 
@@ -265,24 +265,29 @@ tensor([-0.3398,  0.2094,  0.4635, -0.6479, -0.3838,  0.0380,  0.1713,  0.1598,
 
 [Sentence: "The grass is green ."   [− Tokens: 5]]
    
-**Embedding FLAIR combined with BERT:** Especifica cuantos token tiene la frase a continuación:
+**Embedding FLAIR combined with BERT:** Suma de los vectores de los dos tipos de embedding:
    
 **Frase:** The grass is green.
 
 Token: 1 The
+   
 tensor([ 0.6800,  0.2429,  0.0012,  ...,  0.7343, -0.0732,  0.1896])
 
 Token: 2 grass
+   
 tensor([ 2.9200e-01,  2.2066e-02,  4.5290e-05,  ...,  9.8494e-01,
         -5.7341e-01,  6.8033e-01])
 
 Token: 3 is
+   
 tensor([-0.5447,  0.0229,  0.0078,  ..., -0.2840, -0.1061, -0.0851])
 
 Token: 4 green
+   
 tensor([0.1477, 0.1097, 0.0009,  ..., 0.0203, 0.5680, 0.0867])
 
 Token: 5 .
+   
 tensor([-1.5555e-01,  6.7598e-03,  5.3829e-06,  ..., -4.0763e-01,
          1.7429e-01,  3.1956e-02])
    
