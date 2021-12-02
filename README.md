@@ -6,6 +6,7 @@
     * **Código:** 2211058
 
 # **Introducción**
+![Imagen](https://github.com/cmejia99/NLP_Transformers/blob/main/img/NLP.png?raw=true)
 El lenguaje es una herramienta de expresión que nos permite tener relación en nuestra vida social y profesional. Es un medio para transmitir ideas, información, opiniones, sentimientos, entre otras acciones. 
 
 El Procesamiento del Lenguaje Natural o NLP es una disciplina que se encuentra en la intersección de varias ciencias, tales como las ciencias de la computación, la inteligencia artificial y la psicología cognitiva. Su idea central es la de darle a las máquinas la capacidad de leer y comprender los idiomas que hablamos los humanos.
